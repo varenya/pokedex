@@ -1,0 +1,20 @@
+.category-actions {
+  padding: 20px;
+  display: flex;
+}
+
+.delete {
+  color: red;
+  font-size: 16px;
+}
+.undo {
+  color: #1b1a80;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.undo[disabled] {
+  color: grey;
+}

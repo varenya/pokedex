@@ -1,0 +1,82 @@
+.pokemon-item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.pokemon-item > * {
+  margin-right: 25px;
+}
+
+.pokemon-item .pokemon-thumbnail {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000000;
+  background: #eeeeee;
+}
+
+.pokemon-item .pokemon-details {
+  display: flex;
+  flex: 1 0 auto;
+  flex-flow: row wrap;
+}
+
+.pokemon-details .pokemon-info {
+  flex: 0 0 100%;
+}
+
+.pokemon-item .pokemon-checkbox-button {
+  align-self: flex-start;
+}
+.pokemon-item .pokemon-checkbox {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #000000;
+}
+.pokemon-item .pokemon-checkbox.selected {
+  background: #ffce31;
+  border: none;
+}
+
+.pokemon-info .pokemon-name {
+  margin-bottom: 5px;
+}
+
+.pills {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 0 0 100%;
+}
+
+.pills .pill {
+  margin-right: 5px;
+  text-transform: capitalize;
+  background: #eeeeee;
+  border: 1px solid #000000;
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.pokemon-info-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.pokemon-info-list .pokemon-info-list-item {
+  padding-right: 5px;
+}
+
+.pokemon-additional-info {
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  flex: 0 0 50%;
+}
+
+.pokemon-additional-info .info-title {
+  padding-bottom: 5px;
+}

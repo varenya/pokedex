@@ -1,0 +1,13 @@
+.delete-action {
+  background: #1b1a80;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.delete-wrapper {
+  padding: 20px;
+  display: flex;
+
+  justify-content: center;
+}

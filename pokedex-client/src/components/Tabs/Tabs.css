@@ -1,0 +1,16 @@
+.tabs {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.tab-list {
+  border-bottom: 1px solid #000000;
+}
+.tab-list .tab-item {
+  text-transform: capitalize;
+  padding: 10px 20px;
+}
+
+.tab-item.selected {
+  border-bottom: 6px solid #818181;
+}
